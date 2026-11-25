@@ -21,6 +21,12 @@ public class juhaniscanneri {
         System.out.println("Sinä olet " + ika + " vuotta vanha");
         System.out.println("Sinun keskiarvosi on: " + keskiarvo);
 
+        if (isOppilas) {
+            System.out.println("Olet reskistörityna oppilaana");
+        } else {
+            System.out.println("Et ole reskistöriöity oppilaana");
+        }
+
         scanner.close();
     }
 }
